@@ -1,0 +1,16 @@
+Deployment Plan
+
+Test updates and new features locally before pushing to GitHub repo
+
+Push updates and new features to GitHub repo via
+	$ git push origin master
+
+Add minor version number to GitHub commit comment
+	v.X.(minorversion)
+
+Once enough features and updates have been accumulated and tested, push new major updates to Server repo via
+	$ git push ProdServer master
+
+Add major verison number to Server commit comment
+	v.(majorversion).X
+
